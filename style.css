@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    background-color: rgb(211, 219, 219);
+}
+
+.btnOnclickHovers {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    gap: 20px;
+}
+
+.buttons {
+    width: 70px;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btnRed {
+    background-color: red;
+    color: black;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btnGreen {
+    background-color: green;
+    color: black;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btnBlue {
+    background-color: blue;
+    color: black;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
