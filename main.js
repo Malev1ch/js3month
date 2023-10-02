@@ -1,7 +1,7 @@
 const body = document.body;
-const setBtnRed = document.getElementsByClassName('btnRed')[0];
-const setBtnGreen = document.getElementsByClassName('btnGreen')[0];
-const setBtnBlue = document.getElementsByClassName('btnBlue')[0];
+const setBtnRed = document.querySelector('.btnRed');
+const setBtnGreen = document.querySelector('.btnGreen');
+const setBtnBlue = document.querySelector('.btnBlue');
 
 let currentColor = '';
 
